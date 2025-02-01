@@ -1,0 +1,1 @@
+export const FLIGHTS_URL= "https://flight-status-mock.core.travelopia.cloud/flights"
