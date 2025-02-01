@@ -63,6 +63,9 @@ export const FlightDetail = () => {
             ))}
         </Table.Body>
         </Table.Root>
+        <div className="end">
+          *Flight details are updated every <code>2nd second</code>
+        </div>
     </ChakraProvider>
   );  
   

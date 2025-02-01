@@ -2,7 +2,6 @@ import { getTableData } from "../api/fetchData";
 import { useState, useEffect, useMemo } from "react";  
 import { IFlight } from "../utils/flight";
 import { COLUMNS } from "./columns";
-import { FLIGHTS_URL } from "../utils/constants";
 // "use client";
 import {  
     ChakraProvider,
@@ -62,6 +61,9 @@ export const ReactTable = () => {
             
         </Table.Body>
         </Table.Root>
+        <div className="end">
+          *Table data refreshes every <code>5 seconds</code>
+        </div>
     </ChakraProvider>
   );  
   

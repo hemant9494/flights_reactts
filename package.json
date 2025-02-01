@@ -41,7 +41,7 @@
     "@types/jest": "^29.5.14",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
-    "react-router-dom": "^7.1.4",
+    "react-router-dom": "^7.1.5",
     "web-vitals": "^4.2.4"
   }
 }
